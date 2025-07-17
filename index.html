@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karishma | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header id="home">
+    <div class="container">
+      <h1>Karishma</h1>
+      <p>Web Developer Intern</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="profile.jpg" alt="Profile Image" />
+        <p>
+          I'm Karishma, a passionate and dedicated Web Developer Intern. I specialize in front-end development using HTML, CSS, and JavaScript, and have experience with programming in C. I enjoy solving problems and building creative projects that are both functional and visually appealing.
+          <br><br>
+          I’ve worked on various hands-on projects including games, automation tools, and management systems. I'm always eager to learn new technologies, collaborate with others, and turn ideas into reality through clean code and smart design.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <!-- Personal Projects -->
+        <div class="project-card">
+          <img src="ATM.jpg" alt="ATM Project" />
+          <h3>ATM Using C Language</h3>
+          <p>A text-based ATM simulation developed using C language that handles balance checks, withdrawals, and deposits.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="Hand wash.jpg" alt="Automatic Handwash" />
+          <h3>Automatic Handwash</h3>
+          <p>An automatic system that uses sensors to dispense liquid without touching, ideal for hygiene.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="Blood bank.png" alt="Blood Bank System" />
+          <h3>Blood Bank Management System</h3>
+          <p>Helps manage donor records, blood types, and requests for hospitals or clinics.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="rock paper.jpg" alt="Rock Paper Scissors" />
+          <h3>Rock Paper Scissors Game</h3>
+          <p>A simple browser-based game using HTML, CSS, and JavaScript for interaction and scoring.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+
+        <!-- Internship Tasks -->
+        <div class="project-card">
+          <h3>Internship Task 1: Profile Card</h3>
+          <button class="btn" onclick="toggleDetails('task1')">View Project</button>
+          <div class="project-details" id="task1">
+            <p>This task was to create a responsive profile card using HTML and CSS. It displays a user image, name, role, and brief information inside a stylish card layout. The card includes hover effects and adjusts well for mobile screens.</p>
+            <img src="task1.jpg" alt="Profile Card">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Internship Task 2: Remote Internship Program UI</h3>
+          <button class="btn" onclick="toggleDetails('task2')">View Project</button>
+          <div class="project-details" id="task2">
+            <p>This was a landing interface for a remote internship program. The UI design is made using HTML and CSS, including attractive banners and program information. It is clean, structured, and visually appealing.</p>
+            <img src="task2(1).jpg" alt="Task 2 - Image 1">
+            <img src="task2(2).jpg" alt="Task 2 - Image 2">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Internship Task 3: Contact Page</h3>
+          <button class="btn" onclick="toggleDetails('task3')">View Project</button>
+          <div class="project-details" id="task3">
+            <p>This task involved creating a responsive contact form using HTML and CSS with JavaScript validation. The form ensures that all fields are filled and the email format is valid.</p>
+            <img src="task3.jpg" alt="Task 3">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Internship Task 4: Internship Portal Website</h3>
+          <button class="btn" onclick="toggleDetails('task4')">View Project</button>
+          <div class="project-details" id="task4">
+            <p>This task was to create a 3-page responsive mini internship website that includes:</p>
+            <ul>
+              <li>✔️ Home Page</li>
+              <li>✔️ About Section</li>
+              <li>✔️ Contact Section</li>
+              <li>✔️ Internship Process Description</li>
+            </ul>
+            <p>The design includes CSS animations, clean layout, and mobile-friendly structure.</p>
+            <img src="task4(1).jpg" alt="Task 4 - 1">
+            <img src="task4(2).jpg" alt="Task 4 - 2">
+            <img src="task4(3).jpg" alt="Task 4 - 3">
+            <img src="task4(4).jpg" alt="Task 4 - 4">
+            <img src="task4(5).jpg" alt="Task 4 - 5">
+            <img src="task4(6).jpg" alt="Task 4 - 6">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <button id="scrollTopBtn">Top</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
